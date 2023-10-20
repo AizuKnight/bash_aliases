@@ -11,12 +11,15 @@ cd(){
   command ls
 }
 usage(){
-  command /usr/local/bin/du  -sk  *  .??*  |  sort  -n
-  command /usr/local/bin/du  -sk  ~/.
+  command /usr/local/bin/du -sk * .??* | sort -n
+  echo "------------------------------"
+  echo "Disk Usage:"
+  command /usr/local/bin/du -sk ~/.
+  echo "------------------------------"
 }
 cleartrash(){
   echo "You are going to delete all files in trash directiory."
-  command rm -fR ~/.Trash/ *
+  command rm -fR ~/.Trash/*
   command rm -fR ~/.local/share/Trash/*
   echo "You deleted all files in trash dirctory. "
 }
