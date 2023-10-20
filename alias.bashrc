@@ -88,31 +88,26 @@ export IGNOREEOF=3
 PS1="\h:\W \u[\!]$ "
 
 #aliases for all shells
-function cd(){
+cd(){
   command cd $@
   command ls
 }
-function usage(){
+usage(){
     command /usr/local/bin/du  -sk  *  .??*  |  sort  -n
     command /usr/local/bin/du  -sk  ~/.
 }
-function cleartrash(){
+cleartrash(){
     echo "You are going to delete all files in trash directiory."
     command rm -fR ~/.Trash/ *
     command rm -fR ~/.local/share/Trash/*
     echo "You deleted all files in trash dirctory. "
 }
-function core(){
+core(){
     command rm -f ~/Cadence*/core*
     command rm -f ~/Cadence*/ex*_*_run*/core*
 }
-function verilog() {
+verilog() {
     command code ~/Cadence23L/$1/testfixture.verilog
 }
 
-alias cd=cd
-alias usage=usage
-alias cleartrash=cleartrash
-alias core=core
-alias verilog=verilog
 alias ls='ls -l'
