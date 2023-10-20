@@ -13,7 +13,5 @@
 #  Information System and Technology Center (ISTC)
 #  E-mail: std-help@u-aizu.ac.jp
 #
-#  Modified by AizuKnight
-#
 ######################################################################
 ```
