@@ -109,8 +109,10 @@ function core(){
 function verilog() {
     command code ~/Cadence23L/$1/testfixture.verilog
 }
-#alias  cp='cp -i'
-#alias  mv='mv -i'
-#alias  rm='rm -i'
-alias  ls='ls -l'
-#alias  ps='ps -ef'
+
+alias cd=cd
+alias usage=usage
+alias cleartrash=cleartrash
+alias core=core
+alias verilog=verilog
+alias ls='ls -l'
