@@ -107,7 +107,7 @@ function core(){
     command rm -f ~/Cadence*/ex*_*_run*/core*
 }
 function verilog() {
-    command code ~/Cadence23L/$@/testfixture.verilog
+    command code ~/Cadence23L/$1/testfixture.verilog
 }
 #alias  cp='cp -i'
 #alias  mv='mv -i'
