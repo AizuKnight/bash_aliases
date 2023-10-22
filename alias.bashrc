@@ -26,8 +26,5 @@ cleartrash(){
 core(){
   command rm -f ~/Cadence*/core*
 }
-verilog() {
-  command code ~/Cadence23L/$1/testfixture.verilog
-}
 
 alias ls='ls -l'
