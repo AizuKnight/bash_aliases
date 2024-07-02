@@ -1,18 +1,34 @@
-# ~/.bashrc
+# ~/.bash_aliases
+
 ```
 ######################################################################
 #
-#  $HOME/.bashrc file
-#  Last Updated: 2022-05-24
+#  $HOME/.bash_aliases file
+#  Last Updated: 2024-07-02
 #
-#    The most recent file is kept under ~stdskel/ .
-#    You may revise your files by copying from there.
-#    URL : http://web-int.u-aizu.ac.jp/~stdskel/stdskel.html
-#
-#  The University of Aizu Information Network System (AINS)
-#  Information System and Technology Center (ISTC)
-#  E-mail: std-help@u-aizu.ac.jp
+#  Created by AizuKnight
 #
 ######################################################################
 ```
-### これを作っていたら$HOMEの隠しディレクトリ・ファイル以外全部消え失せました
+
+# How to Use
+
+* Append the following bash script into `~/.bashrc` if there is not.
+
+```bash
+    if [ -f ~/.bash_aliases ]; then
+      . ~/.bash_aliases
+    fi
+```
+
+* Copy the favorite file into `~/` and change its name to `.bash_aliases`.
+
+* Run the following bash script.
+
+```bash
+    source ~/.bash_aliases
+```
+
+* **That's it! Have a good one!**
+
+###### ~~これを作っていたら~/の隠しディレクトリ・ファイル以外全部消え失せた事があることは秘密にしておく~~ :sad:
