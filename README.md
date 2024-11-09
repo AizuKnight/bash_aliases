@@ -19,6 +19,6 @@
 * Copy your favorite file into `~/` and change its name to `.bash_aliases`.
 * Run the following command.
   ```bash
-      source ~/.bash_aliases
+  source ~/.bash_aliases
   ```
 That's it. Thank you.
