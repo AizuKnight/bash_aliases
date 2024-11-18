@@ -1,4 +1,4 @@
-alias ome='cd ~/CHANGE_HERE && code .'
+alias omedoc='cd ~/CHANGE_HERE && code .'
 alias tsome1='cd ~/CHANGE_HERE && docker run --rm -v $(pwd):/workdir ome-doc-latex sh -c "cd 01 ; llmk"'
 alias tsome2='cd ~/CHANGE_HERE && docker run --rm -v $(pwd):/workdir ome-doc-latex sh -c "cd 02 ; llmk"'
 alias tsome3='cd ~/CHANGE_HERE && docker run --rm -v $(pwd):/workdir ome-doc-latex sh -c "cd 03 ; llmk"'
